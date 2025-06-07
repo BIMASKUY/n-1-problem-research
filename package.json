@@ -1,0 +1,35 @@
+{
+  "name": "n-1-problem-research",
+  "version": "1.0.0",
+  "description": "The N+1 problem is a common issue that frequently occurs in web applications using relational databases, where suboptimal queries can lead to poor application performance. The method used involves analyzing and comparing the performance of queries before and after the optimization technique is applied",
+  "keywords": [
+    "join",
+    "N+1",
+    "problem",
+    "query",
+    "optimization",
+    "web",
+    "application"
+  ],
+  "homepage": "https://github.com/BIMASKUY/n-1-problem-research#readme",
+  "bugs": {
+    "url": "https://github.com/BIMASKUY/n-1-problem-research/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BIMASKUY/n-1-problem-research.git"
+  },
+  "license": "MIT",
+  "author": "Bima Rizqy Ramadhan",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.15.6"
+  }
+}
